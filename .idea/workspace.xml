@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/SimpleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked-list/src/test/java/io/github/jaymorelli/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LllhdgS2tOC5fVApClH2nhG9ps" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.jaymorelli" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LinkedListTest">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.addFirst_givenElement_elementIsNewHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
+      <option name="METHOD_NAME" value="addFirst_givenElement_elementIsNewHead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
+      <option name="METHOD_NAME" value="add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.remove_givenElement_removeElementFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
+      <option name="METHOD_NAME" value="remove_givenElement_removeElementFromList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.remove_givenIndexI_removeAndReturnElementI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
+      <option name="METHOD_NAME" value="remove_givenIndexI_removeAndReturnElementI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.remove_givenElement_removeElementFromList" />
+        <item itemvalue="JUnit.LinkedListTest.add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" />
+        <item itemvalue="JUnit.LinkedListTest.addFirst_givenElement_elementIsNewHead" />
+        <item itemvalue="JUnit.LinkedListTest.remove_givenIndexI_removeAndReturnElementI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="" />
+      <created>1676453672591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676453672591</updated>
+      <workItem from="1676453674163" duration="1448000" />
+      <workItem from="1676467582974" duration="5480000" />
+      <workItem from="1676484919750" duration="3084000" />
+      <workItem from="1676537097829" duration="1612000" />
+      <workItem from="1676829972012" duration="2334000" />
+      <workItem from="1677064647546" duration="3042000" />
+      <workItem from="1677137904387" duration="378000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
