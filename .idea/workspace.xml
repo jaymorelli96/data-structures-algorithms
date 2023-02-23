@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/SimpleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list/src/test/java/io/github/jaymorelli/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/main/java/io/github/jaymorelli/SimpleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/SimpleList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <recent name="io.github.jaymorelli" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="JUnit.LinkedListTest.getFirst_returnsFirstElementOfList">
     <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linked-list" />
       <extension name="coverage">
@@ -115,6 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListTest.getFirst_returnsFirstElementOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
+      <option name="METHOD_NAME" value="getFirst_returnsFirstElementOfList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListTest.remove_givenElement_removeElementFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linked-list" />
       <extension name="coverage">
@@ -131,29 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.remove_givenIndexI_removeAndReturnElementI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
-      <option name="METHOD_NAME" value="remove_givenIndexI_removeAndReturnElementI" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.getFirst_returnsFirstElementOfList" />
         <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="JUnit.LinkedListTest.remove_givenElement_removeElementFromList" />
         <item itemvalue="JUnit.LinkedListTest.add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" />
         <item itemvalue="JUnit.LinkedListTest.addFirst_givenElement_elementIsNewHead" />
-        <item itemvalue="JUnit.LinkedListTest.remove_givenIndexI_removeAndReturnElementI" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +167,7 @@
       <workItem from="1676537097829" duration="1612000" />
       <workItem from="1676829972012" duration="2334000" />
       <workItem from="1677064647546" duration="3042000" />
-      <workItem from="1677137904387" duration="378000" />
+      <workItem from="1677137904387" duration="3648000" />
     </task>
     <servers />
   </component>

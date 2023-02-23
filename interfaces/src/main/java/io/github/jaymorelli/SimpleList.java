@@ -1,5 +1,6 @@
 package io.github.jaymorelli;
 
+
 public interface SimpleList<E> {
     int size();
     boolean isEmpty();

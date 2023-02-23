@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.NoSuchElementException;
+
 
 class LinkedListTest {
 
@@ -47,7 +49,7 @@ class LinkedListTest {
         String firstElement = linkedList.getFirst();
         assertEquals("Element 1", firstElement);
         linkedList.clear();
-        assertNull(linkedList.getFirst());
+        assertThrows(NoSuchElementException.class, linkedList::getFirst);
     }
 
     @Test
