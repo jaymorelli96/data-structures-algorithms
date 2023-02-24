@@ -1,4 +1,6 @@
-package io.github.jaymorelli;
+package io.github.jaymorelli.linkedList;
+
+import io.github.jaymorelli.SimpleList;
 
 import java.util.NoSuchElementException;
 import java.util.Objects;
@@ -7,7 +9,7 @@ import java.util.Objects;
  * Simple implementation of a single Linked List.
  * @author Jean Morelli
  */
-public class LinkedList<E> implements SimpleList<E>{
+public class LinkedList<E> implements SimpleList<E> {
     private Integer size = 0;
     private Node<E> head;
 

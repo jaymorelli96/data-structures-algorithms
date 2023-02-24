@@ -2,6 +2,7 @@ package io.github.jaymorelli;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import io.github.jaymorelli.linkedList.LinkedList;
 import org.junit.jupiter.api.Test;
 
 import java.util.NoSuchElementException;

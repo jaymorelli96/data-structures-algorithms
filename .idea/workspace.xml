@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/interfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/src/main/java/io/github/jaymorelli/SimpleList.java" afterDir="false" />
+    <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="refactor linked list + module for interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/SimpleList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -63,12 +59,12 @@
       <recent name="io.github.jaymorelli" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.getFirst_returnsFirstElementOfList">
+  <component name="RunManager" selected="JUnit.io.github.jaymorelli in list">
     <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+      <module name="list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,27 +75,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.addFirst_givenElement_elementIsNewHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
-      <option name="METHOD_NAME" value="addFirst_givenElement_elementIsNewHead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListTest.add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+      <module name="list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,10 +92,10 @@
       </method>
     </configuration>
     <configuration name="LinkedListTest.getFirst_returnsFirstElementOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+      <module name="list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,10 +108,10 @@
       </method>
     </configuration>
     <configuration name="LinkedListTest.remove_givenElement_removeElementFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+      <module name="list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +123,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.github.jaymorelli in list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.io.github.jaymorelli in list" />
         <item itemvalue="JUnit.LinkedListTest.getFirst_returnsFirstElementOfList" />
         <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="JUnit.LinkedListTest.remove_givenElement_removeElementFromList" />
         <item itemvalue="JUnit.LinkedListTest.add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" />
-        <item itemvalue="JUnit.LinkedListTest.addFirst_givenElement_elementIsNewHead" />
       </list>
     </recent_temporary>
   </component>
@@ -167,8 +161,17 @@
       <workItem from="1676537097829" duration="1612000" />
       <workItem from="1676829972012" duration="2334000" />
       <workItem from="1677064647546" duration="3042000" />
-      <workItem from="1677137904387" duration="3648000" />
+      <workItem from="1677137904387" duration="4144000" />
+      <workItem from="1677238235773" duration="175000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor linked list + module for interfaces">
+      <created>1677141672355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677141672356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,5 +187,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor linked list + module for interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor linked list + module for interfaces" />
   </component>
 </project>
