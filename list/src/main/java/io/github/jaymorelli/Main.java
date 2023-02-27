@@ -1,8 +1,10 @@
 package io.github.jaymorelli;
 
+import java.util.LinkedList;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello LinkedList!");
+        System.out.println("Hello Lists!");
     }
 
 }

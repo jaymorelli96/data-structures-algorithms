@@ -23,9 +23,8 @@ public class LinkedList<E> implements SimpleList<E> {
     }
 
     /**
-     * Returns <strong>true</strong> if list contains no elements.
-     * @implNote
-     * The head node should be null and size should be 0
+     * Check if the list contains no elements.
+     * @return boolean - true if list is considered empty
      */
     @Override
     public boolean isEmpty() {
@@ -34,7 +33,7 @@ public class LinkedList<E> implements SimpleList<E> {
 
     /**
      * Clear the list
-     * @implNote  set size to 0 and remove head reference by setting to null
+     * @implNote  set size to 0 and remove head reference
      */
     @Override
     public void clear() {
@@ -58,7 +57,7 @@ public class LinkedList<E> implements SimpleList<E> {
     }
 
     /**
-     * Returns data of the head node or null if list is empty
+     * Returns data of the head node
      * @throws NoSuchElementException if list is empty
      * @return first element
      */
@@ -70,7 +69,7 @@ public class LinkedList<E> implements SimpleList<E> {
     }
 
     /**
-     * Returns data of the last node or null if list is empty
+     * Returns data of the last node
      * @throws NoSuchElementException if list is empty
      * @return last element
      */
@@ -83,7 +82,6 @@ public class LinkedList<E> implements SimpleList<E> {
 
     /**
      * Add element to the back of the list by  setting the next reference of the previously last node to the new element being added.
-     * @implNote If list is empty set head to the new element, else get the last node and set its reference to the new element.
      * @param element - element to be added to the end of the list
      * @return boolean - return true if element was successfully added to the list
      */

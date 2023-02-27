@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="refactor linked list + module for interfaces">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/linkedList/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/src/test/java/io/github/jaymorelli/doublyLinkedList/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/list/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/SimpleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/test/java/io/github/jaymorelli/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/test/java/io/github/jaymorelli/linkedList/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +24,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,83 +64,87 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.jaymorelli.linkedList" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.jaymorelli.doublyLinkedList" />
       <recent name="io.github.jaymorelli" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.io.github.jaymorelli in list">
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="list" />
+  <component name="RunManager" selected="JUnit.io.github.jaymorelli.doublyLinkedList in linked-list">
+    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="list" />
+    <configuration name="DoublyLinkedListTest.givenAList_whenRemoveIsCalledWithAnIndex_thenElementAtIndexPositionIsRemovedFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
-      <option name="METHOD_NAME" value="add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
+      <option name="METHOD_NAME" value="givenAList_whenRemoveIsCalledWithAnIndex_thenElementAtIndexPositionIsRemovedFromList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.getFirst_returnsFirstElementOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="list" />
+    <configuration name="DoublyLinkedListTest.givenAList_whenRemoveWithElementAsParamIsCalled_thenTheGivenElementRemovedFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
-      <option name="METHOD_NAME" value="getFirst_returnsFirstElementOfList" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
+      <option name="METHOD_NAME" value="givenAList_whenRemoveWithElementAsParamIsCalled_thenTheGivenElementRemovedFromList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.remove_givenElement_removeElementFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="list" />
+    <configuration name="DoublyLinkedListTest.givenList_whenRemoveWithElementAsParamIsCalledAndElementNotExist_thenReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.linkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.LinkedListTest" />
-      <option name="METHOD_NAME" value="remove_givenElement_removeElementFromList" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
+      <option name="METHOD_NAME" value="givenList_whenRemoveWithElementAsParamIsCalledAndElementNotExist_thenReturnsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.github.jaymorelli in list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="list" />
+    <configuration name="io.github.jaymorelli.doublyLinkedList in linked-list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linked-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.io.github.jaymorelli in list" />
-        <item itemvalue="JUnit.LinkedListTest.getFirst_returnsFirstElementOfList" />
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.remove_givenElement_removeElementFromList" />
-        <item itemvalue="JUnit.LinkedListTest.add_givenIndexAndElement_thenListShouldBeModifiedWithNewElement" />
+        <item itemvalue="JUnit.io.github.jaymorelli.doublyLinkedList in linked-list" />
+        <item itemvalue="JUnit.DoublyLinkedListTest" />
+        <item itemvalue="JUnit.DoublyLinkedListTest.givenAList_whenRemoveWithElementAsParamIsCalled_thenTheGivenElementRemovedFromList" />
+        <item itemvalue="JUnit.DoublyLinkedListTest.givenList_whenRemoveWithElementAsParamIsCalledAndElementNotExist_thenReturnsFalse" />
+        <item itemvalue="JUnit.DoublyLinkedListTest.givenAList_whenRemoveIsCalledWithAnIndex_thenElementAtIndexPositionIsRemovedFromList" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +176,9 @@
       <workItem from="1677064647546" duration="3042000" />
       <workItem from="1677137904387" duration="4144000" />
       <workItem from="1677238235773" duration="175000" />
+      <workItem from="1677239697657" duration="3631000" />
+      <workItem from="1677250803377" duration="12498000" />
+      <workItem from="1677403110775" duration="8055000" />
     </task>
     <task id="LOCAL-00001" summary="refactor linked list + module for interfaces">
       <created>1677141672355</created>
@@ -191,5 +207,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor linked list + module for interfaces" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor linked list + module for interfaces" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.github.jaymorelli.linkedList.DoublyLinkedList$Node" memberName="data" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

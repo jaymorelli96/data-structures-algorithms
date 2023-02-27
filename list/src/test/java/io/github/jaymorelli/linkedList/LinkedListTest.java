@@ -1,4 +1,4 @@
-package io.github.jaymorelli;
+package io.github.jaymorelli.linkedList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
