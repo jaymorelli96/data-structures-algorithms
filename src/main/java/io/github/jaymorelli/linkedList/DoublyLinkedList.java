@@ -1,8 +1,6 @@
 package io.github.jaymorelli.linkedList;
 
 
-import io.github.jaymorelli.SimpleList;
-
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
@@ -64,7 +62,6 @@ public class DoublyLinkedList<E> implements SimpleList<E> {
      * @throws NoSuchElementException if list is empty
      * @return first element
      */
-    @Override
     public E getFirst() {
         if(size == 0) throw new NoSuchElementException();
 
@@ -76,7 +73,6 @@ public class DoublyLinkedList<E> implements SimpleList<E> {
      * @throws NoSuchElementException if list is empty
      * @return last element
      */
-    @Override
     public E getLast() {
         if(size == 0) throw new NoSuchElementException();
 
@@ -132,7 +128,6 @@ public class DoublyLinkedList<E> implements SimpleList<E> {
      * @param e - element to be added to the end of the list
      * @return boolean - return true if element was successfully added to the list
      */
-    @Override
     public boolean addFirst(E e) {
         head = new Node<>(null, head, e);
         if(Objects.isNull(tail)) {
@@ -146,7 +141,6 @@ public class DoublyLinkedList<E> implements SimpleList<E> {
      * Remove first element of the list
      * @return boolean - return true if element was removed from the list and false otherwise
      */
-    @Override
     public boolean removeFirst() {
         if(size == 0) throw new IndexOutOfBoundsException();
 
@@ -161,7 +155,6 @@ public class DoublyLinkedList<E> implements SimpleList<E> {
      * Remove last element of the list
      * @return boolean - return true if element was removed from the list and false otherwise
      */
-    @Override
     public boolean removeLast() {
         if(size == 0) throw new IndexOutOfBoundsException();
 

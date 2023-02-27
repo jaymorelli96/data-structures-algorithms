@@ -1,4 +1,4 @@
-package io.github.jaymorelli;
+package io.github.jaymorelli.linkedList;
 
 
 import java.util.NoSuchElementException;
@@ -24,16 +24,7 @@ public interface SimpleList<E> {
      * @return element in the position i
      */
     E get(int i);
-    /**
-     * Returns the first element of the list
-     * @return first element
-     */
-    E getFirst();
-    /**
-     * Returns the last element of the list
-     * @return first element
-     */
-    E getLast();
+
     /**
      * Add element to the back of the list.
      * @param e - element to be added to the end of the list
@@ -46,28 +37,14 @@ public interface SimpleList<E> {
      * @return boolean - return true if element was successfully added to the list
      */
     boolean add(int i, E e);
-    /**
-     * Add element to the front of the list.
-     * @param e - element to be added to the front of the list
-     * @return boolean - return true if element was successfully added to the list
-     */
-    boolean addFirst(E e);
-    /**
-     * Remove first element of the list
-     * @return boolean - return true if element was removed from the list and false otherwise
-     */
-    boolean removeFirst();
-    /**
-     * Remove last element of the list
-     * @return boolean - return true if element was removed from the list and false otherwise
-     */
-    boolean removeLast();
+
     /**
      * Remove element in the index i off the list
      * @param i - index of the element
      * @return boolean - return true if element was removed from the list and false otherwise
      */
     boolean remove(int i);
+
     /**
      * Remove given element off the list.
      * @param e - element to be removed

@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="refactor linked list + module for interfaces">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/linkedList/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/src/test/java/io/github/jaymorelli/doublyLinkedList/DoublyLinkedListTest.java" afterDir="false" />
+    <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="added read me - data structures">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/stack/StackLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/jaymorelli/stack/StackLLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/list/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/SimpleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/src/test/java/io/github/jaymorelli/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/test/java/io/github/jaymorelli/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/linkedList/SimpleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/linkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/linkedList/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/io/github/jaymorelli/doublyLinkedList/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/jaymorelli/doublyLinkedList/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/io/github/jaymorelli/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/jaymorelli/linkedList/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,99 +67,105 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jmorelli\IdeaProjects\data-structures-algorithms" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="io.github.jaymorelli.linkedList" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.jaymorelli.stack" />
       <recent name="io.github.jaymorelli.doublyLinkedList" />
       <recent name="io.github.jaymorelli" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.io.github.jaymorelli.doublyLinkedList in linked-list">
-    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+  <component name="RunManager" selected="JUnit.StackLLTest.givenANonEmptyStack_whenPeekIsCalled_thenLastElementIsReturnedButNotRemoved">
+    <configuration name="StackLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.stack" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.stack.StackLLTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedListTest.givenAList_whenRemoveIsCalledWithAnIndex_thenElementAtIndexPositionIsRemovedFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+    <configuration name="StackLLTest.givenANonEmptyStack_whenPeekIsCalled_thenLastElementIsReturnedButNotRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="givenAList_whenRemoveIsCalledWithAnIndex_thenElementAtIndexPositionIsRemovedFromList" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.stack" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.stack.StackLLTest" />
+      <option name="METHOD_NAME" value="givenANonEmptyStack_whenPeekIsCalled_thenLastElementIsReturnedButNotRemoved" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedListTest.givenAList_whenRemoveWithElementAsParamIsCalled_thenTheGivenElementRemovedFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+    <configuration name="StackLLTest.givenANonEmptyStack_whenPopIsCalledMultipleTimes_thenEachTimeLastElementIsRemovedFromListAndReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="givenAList_whenRemoveWithElementAsParamIsCalled_thenTheGivenElementRemovedFromList" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.stack" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.stack.StackLLTest" />
+      <option name="METHOD_NAME" value="givenANonEmptyStack_whenPopIsCalledMultipleTimes_thenEachTimeLastElementIsRemovedFromListAndReturned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedListTest.givenList_whenRemoveWithElementAsParamIsCalledAndElementNotExist_thenReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+    <configuration name="StackLLTest.givenAStack_whenMultipleElementsArePushedAndPopIsCalled_thenLastElementIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.doublyLinkedList.DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="givenList_whenRemoveWithElementAsParamIsCalledAndElementNotExist_thenReturnsFalse" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.stack" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.stack.StackLLTest" />
+      <option name="METHOD_NAME" value="givenAStack_whenMultipleElementsArePushedAndPopIsCalled_thenLastElementIsReturned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.github.jaymorelli.doublyLinkedList in linked-list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linked-list" />
+    <configuration name="StackLLTest.givenAnStack_whenElementIsPushedAndThenPopped_thenElementIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.jaymorelli.doublyLinkedList.*" />
+          <option name="PATTERN" value="io.github.jaymorelli.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.jaymorelli.doublyLinkedList" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="io.github.jaymorelli.stack" />
+      <option name="MAIN_CLASS_NAME" value="io.github.jaymorelli.stack.StackLLTest" />
+      <option name="METHOD_NAME" value="givenAnStack_whenElementIsPushedAndThenPopped_thenElementIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.io.github.jaymorelli.doublyLinkedList in linked-list" />
-        <item itemvalue="JUnit.DoublyLinkedListTest" />
-        <item itemvalue="JUnit.DoublyLinkedListTest.givenAList_whenRemoveWithElementAsParamIsCalled_thenTheGivenElementRemovedFromList" />
-        <item itemvalue="JUnit.DoublyLinkedListTest.givenList_whenRemoveWithElementAsParamIsCalledAndElementNotExist_thenReturnsFalse" />
-        <item itemvalue="JUnit.DoublyLinkedListTest.givenAList_whenRemoveIsCalledWithAnIndex_thenElementAtIndexPositionIsRemovedFromList" />
+        <item itemvalue="JUnit.StackLLTest.givenANonEmptyStack_whenPeekIsCalled_thenLastElementIsReturnedButNotRemoved" />
+        <item itemvalue="JUnit.StackLLTest.givenANonEmptyStack_whenPopIsCalledMultipleTimes_thenEachTimeLastElementIsRemovedFromListAndReturned" />
+        <item itemvalue="JUnit.StackLLTest.givenAStack_whenMultipleElementsArePushedAndPopIsCalled_thenLastElementIsReturned" />
+        <item itemvalue="JUnit.StackLLTest" />
+        <item itemvalue="JUnit.StackLLTest.givenAnStack_whenElementIsPushedAndThenPopped_thenElementIsReturned" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +187,9 @@
       <workItem from="1677238235773" duration="175000" />
       <workItem from="1677239697657" duration="3631000" />
       <workItem from="1677250803377" duration="12498000" />
-      <workItem from="1677403110775" duration="8055000" />
+      <workItem from="1677403110775" duration="13452000" />
+      <workItem from="1677494872766" duration="11000" />
+      <workItem from="1677513666028" duration="5767000" />
     </task>
     <task id="LOCAL-00001" summary="refactor linked list + module for interfaces">
       <created>1677141672355</created>
@@ -187,7 +198,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677141672356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="doubly linked list">
+      <created>1677486873384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677486873384</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added read me - data structures">
+      <created>1677493049107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493049107</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added read me - data structures">
+      <created>1677493285889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493285889</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +238,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor linked list + module for interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor linked list + module for interfaces" />
+    <MESSAGE value="doubly linked list" />
+    <MESSAGE value="added read me - data structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="added read me - data structures" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

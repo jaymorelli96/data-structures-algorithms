@@ -1,7 +1,5 @@
 package io.github.jaymorelli.linkedList;
 
-import io.github.jaymorelli.SimpleList;
-
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
@@ -61,7 +59,6 @@ public class LinkedList<E> implements SimpleList<E> {
      * @throws NoSuchElementException if list is empty
      * @return first element
      */
-    @Override
     public E getFirst() {
         if(isEmpty()) throw new NoSuchElementException();
 
@@ -127,7 +124,6 @@ public class LinkedList<E> implements SimpleList<E> {
      * @param element - element to be added to the end of the list
      * @return boolean - return true if element was successfully added to the list
      */
-    @Override
     public boolean addFirst(E element) {
         if(isEmpty()) {
             head = new Node<>(null, element);
@@ -200,7 +196,6 @@ public class LinkedList<E> implements SimpleList<E> {
      * Remove first element of the list
      * @return boolean - return true if element was removed from the list and false otherwise
      */
-    @Override
     public boolean removeFirst() {
         if(isEmpty()) return false;
         if(size() == 1) {
@@ -216,7 +211,6 @@ public class LinkedList<E> implements SimpleList<E> {
      * Remove last element of the list
      * @return boolean - return true if element was removed from the list and false otherwise
      */
-    @Override
     public boolean removeLast() {
         if(size() == 0) return false;
         else if(size() == 1) {
