@@ -4,8 +4,7 @@ This module contains the implementations of a few different data structures wher
 # Road Map
 - [x] Linked List 
 - [x] Doubly Linked List
-- [ ] Stack
-- [ ] Queue - Linked List
+- [x] Stack
 - [ ] Hash Table
 - [ ] Binary Tree
 - [ ] Binary Heap

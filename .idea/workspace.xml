@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="added read me - data structures">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/stack/StackLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/jaymorelli/stack/StackLLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="5d597558-90ea-4386-bad1-ecf48eb0c342" name="Changes" comment="stack using linked list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/linkedList/SimpleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/linkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/linkedList/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/io/github/jaymorelli/doublyLinkedList/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/jaymorelli/doublyLinkedList/DoublyLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/test/java/io/github/jaymorelli/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/jaymorelli/linkedList/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/stack/StackLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jaymorelli/stack/StackLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -189,7 +177,7 @@
       <workItem from="1677250803377" duration="12498000" />
       <workItem from="1677403110775" duration="13452000" />
       <workItem from="1677494872766" duration="11000" />
-      <workItem from="1677513666028" duration="5767000" />
+      <workItem from="1677513666028" duration="6121000" />
     </task>
     <task id="LOCAL-00001" summary="refactor linked list + module for interfaces">
       <created>1677141672355</created>
@@ -219,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677493285889</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="stack using linked list">
+      <created>1677528593697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677528593697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +235,8 @@
     <MESSAGE value="refactor linked list + module for interfaces" />
     <MESSAGE value="doubly linked list" />
     <MESSAGE value="added read me - data structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="added read me - data structures" />
+    <MESSAGE value="stack using linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack using linked list" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

@@ -3,6 +3,8 @@ package io.github.jaymorelli.stack;
 import io.github.jaymorelli.linkedList.DoublyLinkedList;
 import io.github.jaymorelli.linkedList.LinkedList;
 
+import java.util.EmptyStackException;
+
 /**
  * Implementation of a Stack data structure using a Linked List (same one implemented in this project).
  * A stack is a LIFO (Last In First Out) data structure that contains 3 main methods:
@@ -47,6 +49,8 @@ public class StackLL<E> {
      * @return last element
      */
     public E pop() {
+        if(isEmpty()) throw new EmptyStackException();
+
         E result = listOfElements.getLast();
         listOfElements.removeLast();
         size--;
@@ -58,6 +62,8 @@ public class StackLL<E> {
      * @return last element
      */
     public E peek() {
+        if(isEmpty()) throw new EmptyStackException();
+
         return listOfElements.getLast();
     }
 }
